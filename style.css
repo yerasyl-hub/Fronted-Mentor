@@ -1,0 +1,99 @@
+p{
+    flex-wrap: wrap;
+}
+.big{
+    width: 300px;
+    border-radius: 15px;
+    /* margin-left: 20px;
+    margin-top: 20px; */
+}
+.box{
+    position: relative;
+    width: 300px;
+    background-color: #15273f;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #0d1a2d;
+}
+h2{
+    color: white;
+}
+p{
+    color: #5b7290;
+}
+.clock{
+    display: grid;
+    grid-template-columns: 20px 70px;
+    margin-top: -11px;
+
+}
+.clock img{
+    margin-top: 15px;
+}
+.div{
+    display: grid;
+    grid-template-columns: 215px 200px;
+}
+hr{
+    width: 280px;
+    height: 0px;
+    margin-left: 10px;
+}
+.footer img{
+    width: 40px;
+}
+span{
+    color: white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 50px 200px;
+    margin-left: -200px;
+    margin-top: 30px;
+}
+
+.hover{
+position: absolute;
+left: 150px;
+top: 150px;
+border-radius: 15px;
+opacity: 30%;
+
+    display: none;
+}
+
+
+.top:hover .square{
+    display: block;
+}
+.top:hover .hover{
+    display: block;
+}
+.square{
+    position: absolute;
+    bottom: 265px;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    opacity: 30%;
+    display: none;
+}
+.aqua{
+    color: aqua;
+}
+.txt:hover{
+    color: aqua;
+}
+h2:hover{
+    color: aqua;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
